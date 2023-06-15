@@ -1,0 +1,55 @@
+body{
+    background-image:url(book.jpg);
+    background-size: 100% 900px;
+    background-repeat: no-repeat;
+    position: relative;
+}
+.holder
+{
+    width: 300px;
+    height: 500px;
+    background-color: transparent;
+    border: 8px solid bisque;
+    margin-top: -40px;
+    margin-left: 600px;
+}
+#info
+{
+    margin-top: 25px;
+    margin-left: 48px;
+    font-size: 16px;
+    font-family:cursive;
+}
+#info input{
+    height: 20px;
+    width: 200px;
+    font-family:cursive;
+}
+.signup input
+{
+    font-size:20px;
+    width: fit-content;
+    background-color:white;
+    color:black;
+    text-decoration: none;
+    font-family:cursive;
+    margin-left: 40px;
+    margin-top: 25px;
+    padding: 0px 20px 0px 20px;
+}
+body h3{
+    width: fit-content;
+    padding: 5px 20px 5px 20px;
+    background-color:bisque;
+    color:black;
+    margin-top: 110px;
+    margin-left: 544px;
+    font-size: 35px;;
+    font-family: cursive;
+}
+#info select
+{
+    height: 25px;
+    width: 205px;
+    font-family:cursive;
+}

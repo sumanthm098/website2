@@ -11,15 +11,19 @@
     <h3>USER LOGIN</h3>
     <div class="holder">
     <div id="info">
+        
         <label> User Name:</label>
         <br>
         <input type="text" placeholder="Enter your Username" required>
         <br><br>
         <label>Password:</label>
         <br>
-        <input type="password" placeholder="Enter your Password" required>
+        <input type="password" pattern="(?=.*[#,@,$])(?=.*[a-z])(?=.*[A-Z])(?=.*[0-9]).{8,13}" placeholder="Enter your Password" title="password contains 8 or more charectors,must contains atleast (1 uppercase,1 special[@,#,$] charector,1 number)" required id="pass">
+        <input type="checkbox" name="fp" id="fp" class="checkbox">
+                <label for="fp" id="t">View Password</label>
         <br>
     </div>
+    <br>
     <a href="signup.html">-Create an Account?</a>
     <div class="login">
         <input type="submit" value="LOGIN">
@@ -27,4 +31,16 @@
     </div>
     </form>
 </body>
+<script>
+    var checkbox = document.querySelector('.checkbox');
+
+checkbox.addEventListener('change', function() {
+  if (this.checked) {
+    document.getElementById('pass').type = "text";
+  } else {
+    document.getElementById('pass').type = "password";
+  }
+});
+</script>
+
 </html>

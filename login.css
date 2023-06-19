@@ -7,7 +7,7 @@ body{
 .holder
 {
     width: 300px;
-    height: 300px;
+    height: 350px;
     background-color: transparent;
     border: 8px solid bisque;
     margin-top: -37px;
@@ -34,7 +34,7 @@ body{
     text-decoration: none;
     font-family:cursive;
     margin-left: 98px;
-    margin-top: 22px;
+    margin-top: 30px;
 }
 body h3{
     width: fit-content;
@@ -49,4 +49,16 @@ body h3{
 .holder a{
     font-size: 13px;
     margin-left: 175px;
+}
+.checkbox
+{
+    scale: 0.7;
+    margin-left: -90px;
+    margin-top: 10px;
+}
+#t
+{
+    margin-left: -70px;
+    font-size: 20px;
+    
 }
